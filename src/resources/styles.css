@@ -1,0 +1,126 @@
+#background {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.clock-text {
+  font-family: System-Bold;
+  font-size: 105;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 50%-25;
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+.date-text {
+  font-family: System-Light;
+  font-size: 30;
+  text-anchor: start;
+  text-length: 32;
+  x: 50%-125;
+  y: 40;
+  width: 50%;
+  height: 100%;
+  fill: #FFFFFF;
+}
+
+.date-charge {
+  font-family: System-Light;
+  font-size: 30;
+  text-anchor: end;
+  text-length: 32;
+  x: 100%-40;
+  y: 40;
+  width: 50%;
+  height: 100%;
+  fill: #FFFFFF;
+}
+
+.divider {
+  x: 50%-150;
+  width: 300;
+  height: 1;
+  fill: #646464;
+}
+
+.divider-top {
+  y: 50%;
+}
+
+.divider-btm {
+  y: 50%+59;
+}
+
+.stats {
+  x: 5%;
+  y: 50%;
+  width: 90%;
+  height: 25%;
+  fill: seagreen;
+  background-color: seagreen;
+  border-color: seashell;
+  border-width: 1;
+}
+
+.stats text {
+  font-family: SevilleSharp;
+  font-size: 30;
+  text-length: 16;
+  fill: #FFFFFF;
+}
+
+#iconHRM {
+  width: 24;
+  height: 24;
+  y: 15;
+  x: 1;
+  fill: #FF214A;
+}
+
+
+.stat-left {
+  x: 31;
+  fill: blue;
+  height: 100%;
+}
+
+.stat-right {
+  x: 50%;
+  width: 100%;
+  text-anchor: start;
+  fill: purple;
+  height: 100%;
+}
+
+.stat-top {
+  y: 10%;
+}
+
+.stat-middle {
+  y: 50%;
+}
+
+.stat-bottom {
+  y: 90%;
+}
+
+#stats-cycle {
+  x: 40%;
+  y: 0;
+  width: 60%;
+  height: 100%;
+}
+
+.cycle-item image {
+  x: 50%;
+  y: 15;
+  fill: #FFFFFF;
+  width: 24;
+  height: 24;
+}

@@ -1,0 +1,39 @@
+<svg>
+  <rect id="background" />
+  <text id="txtDate" class="date-text">1/1/2021</text>
+  <text id="txtChargeLevel" class="date-charge">0%</text>
+  <text id="txtTime" class="clock-text">13:37</text>
+  <rect class="divider divider-top" />
+  
+  <section class="stats">
+    <section class="stat-left">
+      <section class="stat-top">
+        <!-- <image href="images/heart_solid.png" class="image" /> -->
+        <text id="txtHRM"/>
+      </section>
+      <section class="stat-middle">
+        <use href="#steps"/>
+        <!-- <image href="images/steps.png" class="image" /> -->
+        <text id="txtSteps" />
+      </section>
+      <section class="stat-bottom">
+        <!-- <image href="images/calories.png" class="image" /> -->
+        <text id="txtCalories" />
+      </section>
+    </section>
+    <section class="stat-right">
+      <section class="stat-top">
+        <!-- <image href="images/distance.png" class="image" /> -->
+        <text id="txtDistance" />
+      </section>
+      <section class="stat-middle">
+        <!-- <image href="images/floors.png" class="image" /> -->
+        <text id="txtFloors" />
+      </section>
+      <section class="stat-bottom">
+        <!-- <image href="images/active_minutes.png" class="image" /> -->
+        <text id="txtActiveMinutes" />
+      </section>
+    </section>
+  </section>
+</svg>
